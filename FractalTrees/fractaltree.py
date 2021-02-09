@@ -18,8 +18,6 @@ def input(event):
     if event.type == pygame.QUIT:
         exit(0)
 
-
-
 drawTree(300,600,-90,9)
 pygame.display.update()
 while True:
